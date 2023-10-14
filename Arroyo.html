@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+<html>
+  
+  <title></title>
+  
+  <style>
+    
+   body {
+    background: url('background.jpg') no-repeat;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+}
+
+header {
+  padding: 50px 20px;
+  background: #777;
+}
+
+.search {
+  background: white;
+  border-radius: 17px;
+  height: 4vh;
+  width: 30%;
+  cursor: pointer;
+  margin-left: 15vh;
+  font-size: 2em;
+  display: flex;
+  padding-left: 2vh;
+}
+
+.search:hover {
+  border: 2px solid red;
+  transform: translate(85);
+}
+
+#submit {
+  width: 20%;
+  height: 4vh;
+  background: dodgerblue;
+  color: white;
+  cursor: pointer;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-left: 17vh;
+  position: absolute;
+  top: 63px;
+  left: 17vh;
+  font-size: 1.7em;
+}
+
+#submit:hover {
+  border: 2px solid orange;
+  transform: translate(85);
+}
+
+
+.form-box {
+  margin: 10vh;
+  padding: 12vh;
+  background: gray;
+  opacity: 0.2;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid yellow;
+  height: 20vh;
+  box-shadow: 0 0 3 orange;
+}
+
+.download {
+  align-items: center;
+  position: absolute;
+  left: 15vh;
+  border-radius: 12px;
+  width: 35%;
+  height: 5vh;
+  font-size: 1.5em;
+  border: 1px solid black;
+  cursor: pointer;
+  background: royalblue;
+  opacity: 1;
+  top: 30vh;
+}
+
+.download:hover {
+  border: 2px solid orange;
+  transition: .5s;
+} 
+    
+  </style>
+  
+  <head>
+    
+  </head>
+  
+  <body>
+     
+     <header>
+       
+       <input 
+       class="search" placeholder="Search">
+       </input>
+    
+     <button id="submit">Submit</button>
+     </header>
+   
+   
+     <div class="form-box">
+       
+       
+     </div>
+     
+     <button class="download">Download</button>
+     
+    <script src="script.js">
+
+    </script>
+  
+  
+  </body>
+</html>
